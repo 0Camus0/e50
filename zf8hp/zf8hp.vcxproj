@@ -21,6 +21,11 @@
   <ItemGroup>
     <ClCompile Include="source\entry.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\core\core.h" />
+    <ClInclude Include="include\core\defs.h" />
+    <ClInclude Include="include\core\structs.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
