@@ -13,10 +13,63 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{7cd35032-d37d-49e5-8d61-025ab7093bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework">
+      <UniqueIdentifier>{6b144b63-e5e4-4598-8bea-325031841aa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\framework">
+      <UniqueIdentifier>{5c13959a-bd3d-4b61-858f-6380b0d4ff46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\framework\window">
+      <UniqueIdentifier>{4b5071de-4c2e-445f-83e0-7098bcc2859c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\window">
+      <UniqueIdentifier>{eb633170-1027-479f-ade0-8f929258a5de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\framework\input">
+      <UniqueIdentifier>{0147bda5-423f-45c7-8c88-9b53cf5090e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\input">
+      <UniqueIdentifier>{9d06a035-23e3-44cc-8b52-e4671634f6b8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\entry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="source\framework\framework_imp.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="source\framework\window\window_imp_sdl.cpp">
+      <Filter>Source Files\framework\window</Filter>
+    </ClCompile>
+    <ClCompile Include="source\framework\input\input.cpp">
+      <Filter>Source Files\framework\input</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\core\core.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\defs.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\structs.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\framework\framework_imp.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="include\framework\window\window_imp_sdl.h">
+      <Filter>Header Files\framework\window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\framework\window\window.h">
+      <Filter>Header Files\framework\window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\framework\input\input.h">
+      <Filter>Header Files\framework\input</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
